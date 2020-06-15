@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8D3B9075249799FC00B347C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B9074249799FC00B347C5 /* AppDelegate.swift */; };
 		8D3B9077249799FC00B347C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B9076249799FC00B347C5 /* SceneDelegate.swift */; };
-		8D3B9079249799FC00B347C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B9078249799FC00B347C5 /* ViewController.swift */; };
+		8D3B9079249799FC00B347C5 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B9078249799FC00B347C5 /* WeatherViewController.swift */; };
 		8D3B907C249799FC00B347C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B907A249799FC00B347C5 /* Main.storyboard */; };
 		8D3B907E249799FF00B347C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B907D249799FF00B347C5 /* Assets.xcassets */; };
 		8D3B9081249799FF00B347C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3B907F249799FF00B347C5 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		8D3B9071249799FC00B347C5 /* SexyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SexyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3B9074249799FC00B347C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D3B9076249799FC00B347C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D3B9078249799FC00B347C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D3B9078249799FC00B347C5 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		8D3B907B249799FC00B347C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D3B907D249799FF00B347C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3B9080249799FF00B347C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +58,37 @@
 			children = (
 				8D3B9074249799FC00B347C5 /* AppDelegate.swift */,
 				8D3B9076249799FC00B347C5 /* SceneDelegate.swift */,
-				8D3B9078249799FC00B347C5 /* ViewController.swift */,
-				8D3B907A249799FC00B347C5 /* Main.storyboard */,
-				8D3B907D249799FF00B347C5 /* Assets.xcassets */,
+				8D3B908A24979A6700B347C5 /* Model */,
+				8D3B908824979A0E00B347C5 /*  View */,
+				8D3B908924979A2C00B347C5 /* Controllers */,
 				8D3B907F249799FF00B347C5 /* LaunchScreen.storyboard */,
+				8D3B907D249799FF00B347C5 /* Assets.xcassets */,
 				8D3B9082249799FF00B347C5 /* Info.plist */,
 			);
 			path = SexyWeather;
+			sourceTree = "<group>";
+		};
+		8D3B908824979A0E00B347C5 /*  View */ = {
+			isa = PBXGroup;
+			children = (
+				8D3B907A249799FC00B347C5 /* Main.storyboard */,
+			);
+			path = " View";
+			sourceTree = "<group>";
+		};
+		8D3B908924979A2C00B347C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D3B9078249799FC00B347C5 /* WeatherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D3B908A24979A6700B347C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3B9079249799FC00B347C5 /* ViewController.swift in Sources */,
+				8D3B9079249799FC00B347C5 /* WeatherViewController.swift in Sources */,
 				8D3B9075249799FC00B347C5 /* AppDelegate.swift in Sources */,
 				8D3B9077249799FC00B347C5 /* SceneDelegate.swift in Sources */,
 			);
